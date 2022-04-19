@@ -9,7 +9,6 @@ def calcula_salario_mes(salario_por_hora, horas_mes):
     print(f'INSS (8%) : R$ {pagou_inss:.2f}')
     print(f'Sindicato (5%) : R$ {pagou_sindicato:.2f}')
     print(f'Salário Líquido : R$ {salario_liquido:.2f}')
-    
 
 
 if __name__ == '__main__':

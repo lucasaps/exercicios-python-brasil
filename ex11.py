@@ -1,5 +1,5 @@
 def calcula(inteiro_um, inteiro_dois, real):
-    operacao_um = (2 * inteiro_um) * (inteiro_dois/2)
+    operacao_um = (2 * inteiro_um) * (inteiro_dois / 2)
     operacao_dois = (3 * inteiro_um) + real
     operacao_tres = real ** 3
     print(f'Operação um: {operacao_um}')

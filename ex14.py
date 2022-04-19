@@ -1,5 +1,6 @@
 LIMITE_QUILOS = 50
 
+
 def calcula_excesso(peso):
     excesso = peso - LIMITE_QUILOS
     if excesso > 0:
@@ -8,7 +9,6 @@ def calcula_excesso(peso):
         print(f'Deve pagar uma multa de R$ {multa}')
     else:
         print('Não excedeu o limite de peso pescado, logo não paga nenhuma multa')
- 
 
 
 if __name__ == '__main__':

@@ -1,7 +1,6 @@
 def calcula_salario_mes(salario_por_hora, horas_mes):
     salario = salario_por_hora * horas_mes
     print(f'Salário por mês = R$ {salario}')
-    
 
 
 if __name__ == '__main__':
